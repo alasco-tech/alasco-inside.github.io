@@ -1239,6 +1239,7 @@ li {
     -webkit-flex: 0 0 33.33%;
     -ms-flex: 0 0 33.33%;
     flex: 0 0 33.33%;
+    text-align: center;
   }
 }
 

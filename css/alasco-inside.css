@@ -1097,76 +1097,105 @@ li {
 
 .list-card-icon-container {
   padding: 20px;
+  text-align: center;
+}
+
+.quote {
+  border-left-color: #36b3b3;
+  background-color: transparent;
+  color: #046;
+  font-size: 1.6em;
+  line-height: 1.4em;
+  font-style: italic;
+  font-weight: 300;
 }
 
 @media screen and (max-width: 991px) {
   h2 {
     font-size: 1.6em;
   }
+
   .max-width-container {
     padding-right: 50px;
     padding-left: 50px;
   }
+
   .max-width-container.fadein.mobile-only {
     display: block;
   }
+
   .nav-textblock {
     font-size: 1.6em;
   }
+
   .brand {
     padding-left: 0px;
   }
+
   .section.header {
     padding-top: 100px;
     padding-bottom: 50px;
   }
+
   .flex-box-33 {
     -webkit-flex-basis: 50%;
     -ms-flex-preferred-size: 50%;
     flex-basis: 50%;
   }
+
   .flex-box-33.flex-box-33-list-card {
     -webkit-box-flex: 0;
     -webkit-flex: 0 100%;
     -ms-flex: 0 100%;
     flex: 0 100%;
   }
+
   .post-text-container {
     min-height: 50%;
   }
+
   .article-teaser-image {
     padding-bottom: 25%;
   }
+
   .footer-link {
     font-size: 0.9em;
   }
+
   .article-image-container {
     position: static;
     height: auto;
   }
+
   .article-header-image-container {
     height: auto;
   }
+
   .flex-box-70 {
     -webkit-flex-basis: 70%;
     -ms-flex-preferred-size: 70%;
     flex-basis: 70%;
   }
+
   .list.list--nobullets {
     padding-left: 30px;
   }
+
   .flex-box-30 {
     -webkit-flex-basis: 30%;
     -ms-flex-preferred-size: 30%;
     flex-basis: 30%;
   }
+
   .social-icon {
     width: 15px;
     margin-right: 5px;
   }
+
   .copyright {
     font-size: 0.9em;
   }
+
   .navlink {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -1174,9 +1203,11 @@ li {
     padding-bottom: 10px;
     font-size: 1.3em;
   }
+
   .navlink.mobile {
     display: block;
   }
+
   .nav-menu {
     position: absolute;
     z-index: 99;
@@ -1187,14 +1218,17 @@ li {
     background-color: #fff;
     text-align: left;
   }
+
   .tab-link {
     padding-right: 25px;
     padding-left: 25px;
     font-size: 1.1em;
   }
+
   .nav_dropdown {
     display: none;
   }
+
   .menu-button {
     position: absolute;
     left: auto;
@@ -1212,16 +1246,20 @@ li {
     -ms-flex-align: center;
     align-items: center;
   }
+
   .menu-button.w--open {
     background-color: #fff;
   }
+
   .menu-icon {
     color: #046;
     font-size: 1.5em;
   }
+
   .tabs {
     display: none;
   }
+
   .list-card {
     display: -webkit-box;
     display: -webkit-flex;
@@ -1233,13 +1271,13 @@ li {
     -ms-flex-direction: row;
     flex-direction: row;
   }
+
   .list-card-icon-container {
     padding: 10px;
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 33.33%;
     -ms-flex: 0 0 33.33%;
     flex: 0 0 33.33%;
-    text-align: center;
   }
 }
 
@@ -1247,83 +1285,105 @@ li {
   h1 {
     font-size: 1.8em;
   }
+
   .max-width-container {
     padding-right: 30px;
     padding-left: 30px;
   }
+
   .nav-textblock {
     line-height: 1.2em;
   }
+
   .brand {
     width: 170px;
   }
+
   .logo_image {
     width: auto;
   }
+
   .section {
     padding-top: 30px;
   }
+
   .section.faq {
     padding-top: 40px;
     padding-bottom: 40px;
   }
+
   .flex-box-50 {
     -webkit-flex-basis: 100%;
     -ms-flex-preferred-size: 100%;
     flex-basis: 100%;
   }
+
   .flex-box-33 {
     -webkit-flex-basis: 100%;
     -ms-flex-preferred-size: 100%;
     flex-basis: 100%;
   }
+
   .post-text-container {
     position: static;
   }
+
   .article-teaser-image {
     padding-bottom: 0%;
   }
+
   .article-image-container {
     position: static;
   }
+
   .flex-box-70 {
     -webkit-flex-basis: 100%;
     -ms-flex-preferred-size: 100%;
     flex-basis: 100%;
   }
+
   .job-box {
     margin-top: 30px;
   }
+
   .flex-box-30 {
     -webkit-flex-basis: 100%;
     -ms-flex-preferred-size: 100%;
     flex-basis: 100%;
   }
+
   .navlink {
     font-size: 1.1em;
   }
+
   .tab-link.w--current {
     position: relative;
   }
+
   .h3-tabs-headline {
     font-size: 1em;
   }
+
   .tab-content-linkbox.header {
     margin-bottom: 30px;
   }
+
   .tab-content-icon-container {
     width: 40px;
     height: 40px;
   }
+
   .menu-button {
     top: 0px;
     right: 12px;
     margin-bottom: 0px;
     padding-top: 15px;
   }
+
   .breadcrumb_li {
     background-position: 100% 50%;
   }
+
   .icon_font {
     font-size: 1em;
   }
@@ -1333,20 +1393,25 @@ li {
   h1 {
     font-size: 1.6em;
   }
+
   h2 {
     font-size: 1.4em;
   }
+
   h3 {
     font-size: 1.1em;
   }
+
   .max-width-container {
     padding-right: 20px;
     padding-left: 20px;
   }
+
   .nav-textblock {
     padding-left: 5px;
     font-size: 1em;
   }
+
   .brand {
     width: 100px;
     margin-right: 5px;
@@ -1355,48 +1420,60 @@ li {
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
   }
+
   .section.header {
     padding-top: 90px;
     padding-bottom: 15px;
   }
+
   .section.resources.first {
     padding-top: 40px;
   }
+
   .flex-box-33 {
     -webkit-flex-basis: 100%;
     -ms-flex-preferred-size: 100%;
     flex-basis: 100%;
   }
+
   .article-heading {
     font-size: 1.1em;
   }
+
   .flex-box-70 {
     -webkit-flex-basis: 100%;
     -ms-flex-preferred-size: 100%;
     flex-basis: 100%;
   }
+
   .flex-box-30 {
     -webkit-flex-basis: 100%;
     -ms-flex-preferred-size: 100%;
     flex-basis: 100%;
   }
+
   .divider.big {
     margin-bottom: 40px;
   }
+
   .nav-menu {
     padding-right: 0px;
     padding-left: 0px;
   }
+
   .tab-link {
     line-height: 1.2em;
   }
+
   .menu-button {
     right: 2px;
     margin-top: 0px;
   }
+
   .breadcrumb_li {
     font-size: 0.8em;
   }
+
   .list-card {
     padding-bottom: 30px;
     -webkit-box-orient: vertical;
@@ -1409,6 +1486,7 @@ li {
     -ms-flex-align: start;
     align-items: flex-start;
   }
+
   .list-card-icon-container {
     padding-bottom: 20px;
   }

@@ -1110,6 +1110,10 @@ li {
   font-weight: 300;
 }
 
+.blue-text {
+  color: #046;
+}
+
 @media screen and (max-width: 991px) {
   h2 {
     font-size: 1.6em;

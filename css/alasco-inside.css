@@ -1114,6 +1114,10 @@ li {
   color: #046;
 }
 
+.accordion_image {
+  margin-bottom: 20px;
+}
+
 @media screen and (max-width: 991px) {
   h2 {
     font-size: 1.6em;
